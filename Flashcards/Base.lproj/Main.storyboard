@@ -74,6 +74,7 @@
                     <connections>
                         <outlet property="AnswerLabel" destination="dXO-pf-i2r" id="WO6-Dy-1DZ"/>
                         <outlet property="Label1" destination="44n-oD-ZTp" id="M0w-Mm-77j"/>
+                        <outlet property="PickerView" destination="NfP-oC-n2s" id="WvH-4h-eF4"/>
                         <outlet property="QuestionLabel" destination="44n-oD-ZTp" id="FsV-4p-mYH"/>
                         <outlet property="QuestionText" destination="W0j-7J-DJz" id="Wgf-Ch-wT1"/>
                         <outlet property="textView" destination="W0j-7J-DJz" id="z2b-sd-LW9"/>
