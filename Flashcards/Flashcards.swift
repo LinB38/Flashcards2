@@ -23,3 +23,14 @@ class Flashcard {
     
 }
 
+class CardCollection {
+    public static var instance : CardCollection = CardCollection()
+    public private(set) var cards : [Flashcard]
+    public private(set) var currentIndex : Int
+    public var currentCard : Flashcard {
+        get {return cards[currentIndex]}
+    }
+    private init() {
+        cards = [ Flashcard(question : "Where is this camp located?", options : ["Stanford", "Harvard", "UC Santa Cruz"]) )]
+    }
+}
