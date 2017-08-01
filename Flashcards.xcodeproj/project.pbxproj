@@ -14,7 +14,7 @@
 		9436EAA41F3001AF006B0285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9436EAA21F3001AF006B0285 /* LaunchScreen.storyboard */; };
 		9436EAAF1F3001AF006B0285 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436EAAE1F3001AF006B0285 /* FlashcardsTests.swift */; };
 		9436EABA1F3001AF006B0285 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436EAB91F3001AF006B0285 /* FlashcardsUITests.swift */; };
-		9436EACA1F30FA4C006B0285 /* Flashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436EAC91F30FA4C006B0285 /* Flashcards.swift */; };
+		9436EACC1F313FFD006B0285 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436EACB1F313FFD006B0285 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		9436EAB51F3001AF006B0285 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9436EAB91F3001AF006B0285 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		9436EABB1F3001AF006B0285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9436EAC91F30FA4C006B0285 /* Flashcards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashcards.swift; sourceTree = "<group>"; };
+		9436EACB1F313FFD006B0285 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 		9436EA981F3001AF006B0285 /* Flashcards */ = {
 			isa = PBXGroup;
 			children = (
+				9436EACB1F313FFD006B0285 /* ModelData.swift */,
 				9436EA991F3001AF006B0285 /* AppDelegate.swift */,
-				9436EAC91F30FA4C006B0285 /* Flashcards.swift */,
 				9436EA9B1F3001AF006B0285 /* ViewController.swift */,
 				9436EA9D1F3001AF006B0285 /* Main.storyboard */,
 				9436EAA01F3001AF006B0285 /* Assets.xcassets */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9436EACA1F30FA4C006B0285 /* Flashcards.swift in Sources */,
+				9436EACC1F313FFD006B0285 /* ModelData.swift in Sources */,
 				9436EA9C1F3001AF006B0285 /* ViewController.swift in Sources */,
 				9436EA9A1F3001AF006B0285 /* AppDelegate.swift in Sources */,
 			);
