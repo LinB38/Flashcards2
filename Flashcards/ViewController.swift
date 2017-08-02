@@ -56,14 +56,13 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
             alert = UIAlertController(title: "Congratulations!", message: "That's the correct answer!", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "Yay!", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true)
+            CardCollection.instance.nextQuestion()
+            setUpCardUI()
         }
         else {
             alert = UIAlertController(title: "Uh oh!", message: "That answer is incorrect!", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "Whoops!", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true)
         }
-        CardCollection.instance.nextQuestion()
-        setUpCardUI()
 }
-
 }
