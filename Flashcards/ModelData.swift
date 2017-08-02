@@ -32,12 +32,9 @@ class CardCollection {
     }
     private init() {
         cards = [
-            Flashcard(question : "Where is this ID Tech located?",
-                      options : ["Stanford", "Harvard", "UC Santa Cruz"]),
-            Flashcard(question : "How long is Teen Freedom?",
-                      options : ["2 hours", "3 hours", "4 hours", "9 hours"]),
-            Flashcard(question : "When is lights out on a normal night?",
-                      options : ["10:00 PM", "9:00 PM", "11:00 PM", "1:00 AM", "12:00 AM"])
+            Flashcard(question : "Where is this ID Tech located?", options : ["Stanford", "Harvard", "UC Santa Cruz"]),
+            Flashcard(question : "How long is Teen Freedom?", options : ["2 hours", "3 hours", "4 hours", "9 hours"]),
+            Flashcard(question : "When is lights out on a normal night?", options : ["10:00 PM", "9:00 PM", "11:00 PM", "1:00 AM", "12:00 AM"])
         ]
         currentIndex = 0
         

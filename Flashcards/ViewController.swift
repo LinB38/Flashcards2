@@ -15,11 +15,13 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var pickerView: UIPickerView!
    
-    @IBAction func submitPressed(_ sender: Any) {
-    }
-   
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        pickerView.dataSource = self
+        pickerView.dataSource = self
+        
         setUpCardUI()
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -31,9 +33,23 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     func setUpCardUI () {
         questionView.text = CardCollection.instance.currentCard.question
-        //pickerView.text = [CardCollection.instance.currentCard.options]
         questionLabel.text = "Question \(CardCollection.instance.currentIndex+1)/\(CardCollection.instance.cards.count)"
     }
-
+    
+    public func numberOfComponents (in pickerView : UIPickerView) -> Int {
+        return 1;
+    }
+    
+    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return CardCollection.instance.currentCard.options.count
+    }
+    
+    public func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return CardCollection.instance.currentCard.options[row];
+    }
+    
+    @IBAction func submitPressed(_ sender: Any) {
+        
+        
+    }
 }
-

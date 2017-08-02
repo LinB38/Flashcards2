@@ -62,7 +62,7 @@
                                             <color key="titleShadowColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="submitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z1Z-eE-06Q"/>
+                                            <action selector="submitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XCT-tQ-7PA"/>
                                         </connections>
                                     </button>
                                 </subviews>
