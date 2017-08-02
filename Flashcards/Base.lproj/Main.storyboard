@@ -52,6 +52,10 @@
                                     </label>
                                     <pickerView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NfP-oC-n2s">
                                         <rect key="frame" x="0.0" y="400" width="343" height="216"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="BYZ-38-t0r" id="n51-em-zFT"/>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="KZV-Le-Tzd"/>
+                                        </connections>
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hgi-2J-uaK">
                                         <rect key="frame" x="0.0" y="616" width="343" height="39"/>

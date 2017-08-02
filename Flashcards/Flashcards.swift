@@ -45,7 +45,7 @@ class CardCollection {
                   Flashcard(question: "What's the capitol of Washington state?", options:["Olympia", "Tacoma", "Seattle", "Spokane"]),
                   Flashcard(question: "Where is iD Tech's headquarters?", options:["Campbell, CA", "Albequerque, NM", "Beijing, CN"])]
         
-        currentIndex = 0;
+        currentIndex = 0
         
     }
     
