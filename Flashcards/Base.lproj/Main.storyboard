@@ -22,10 +22,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="391" placeholderIntrinsicHeight="655" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tLQ-Ad-X2f">
-                                <rect key="frame" x="16" y="12" width="343" height="655"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="391" placeholderIntrinsicHeight="655" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tLQ-Ad-X2f">
+                                <rect key="frame" x="16" y="9" width="343" height="655"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" ambiguous="YES" text="Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44n-oD-ZTp">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Question" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44n-oD-ZTp">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="24"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                         <edgeInsets key="layoutMargins" top="33" left="51" bottom="8" right="8"/>
@@ -34,7 +34,7 @@
                                         <nil key="highlightedColor"/>
                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" ambiguous="YES" text="Question text" translatesAutoresizingMaskIntoConstraints="NO" id="W0j-7J-DJz">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="250" text="Question text" translatesAutoresizingMaskIntoConstraints="NO" id="W0j-7J-DJz">
                                         <rect key="frame" x="0.0" y="24" width="343" height="309"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
@@ -42,7 +42,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="213" horizontalCompressionResistancePriority="744" verticalCompressionResistancePriority="1000" ambiguous="YES" placeholderIntrinsicWidth="288" placeholderIntrinsicHeight="22" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="316" translatesAutoresizingMaskIntoConstraints="NO" id="dXO-pf-i2r">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="213" horizontalCompressionResistancePriority="744" verticalCompressionResistancePriority="1000" placeholderIntrinsicWidth="288" placeholderIntrinsicHeight="22" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="316" translatesAutoresizingMaskIntoConstraints="NO" id="dXO-pf-i2r">
                                         <rect key="frame" x="0.0" y="333" width="343" height="67"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                         <edgeInsets key="layoutMargins" top="40" left="54" bottom="8" right="8"/>
@@ -50,10 +50,10 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <pickerView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NfP-oC-n2s">
+                                    <pickerView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NfP-oC-n2s">
                                         <rect key="frame" x="0.0" y="400" width="343" height="216"/>
                                     </pickerView>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hgi-2J-uaK">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hgi-2J-uaK">
                                         <rect key="frame" x="0.0" y="616" width="343" height="39"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
@@ -62,9 +62,7 @@
                                             <color key="titleShadowColor" red="0.99194461107254028" green="0.99615627527236938" blue="0.99600595235824585" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="AnswerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cj8-g2-Obs"/>
-                                            <action selector="ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YdH-lW-Hro"/>
-                                            <segue destination="H8A-2Z-0JH" kind="show" id="DUq-31-4mh"/>
+                                            <action selector="submitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z1Z-eE-06Q"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -73,17 +71,16 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="tLQ-Ad-X2f" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-11" id="8Oe-i3-bnq"/>
                             <constraint firstItem="tLQ-Ad-X2f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Hgb-a3-dOn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tLQ-Ad-X2f" secondAttribute="trailing" id="uKU-6e-CSY"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="AnswerLabel" destination="dXO-pf-i2r" id="WO6-Dy-1DZ"/>
-                        <outlet property="Label1" destination="44n-oD-ZTp" id="M0w-Mm-77j"/>
-                        <outlet property="PickerView" destination="NfP-oC-n2s" id="WvH-4h-eF4"/>
-                        <outlet property="QuestionLabel" destination="44n-oD-ZTp" id="FsV-4p-mYH"/>
-                        <outlet property="QuestionText" destination="W0j-7J-DJz" id="Wgf-Ch-wT1"/>
-                        <outlet property="textView" destination="W0j-7J-DJz" id="z2b-sd-LW9"/>
+                        <outlet property="answerLabel" destination="dXO-pf-i2r" id="ofn-dr-n5b"/>
+                        <outlet property="pickerView" destination="NfP-oC-n2s" id="GQj-4U-VOX"/>
+                        <outlet property="questionLabel" destination="44n-oD-ZTp" id="ZZQ-VL-1WS"/>
+                        <outlet property="questionView" destination="W0j-7J-DJz" id="NZC-vs-mNU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

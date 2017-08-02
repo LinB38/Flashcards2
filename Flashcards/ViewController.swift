@@ -10,15 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var QuestionLabel: UILabel!
-    @IBOutlet weak var QuestionText: UITextView!
-    @IBOutlet weak var AnswerLabel: UILabel!
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var questionView: UITextView!
+    @IBOutlet weak var answerLabel: UILabel!
+    @IBOutlet weak var pickerView: UIPickerView!
    
-    @IBOutlet weak var PickerView: UIPickerView!
-    @IBAction func AnswerButtonPressed(_ sender: Any) {
+    @IBAction func submitPressed(_ sender: Any) {
     }
+   
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUpCardUI()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -26,7 +28,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    func setUpCardUI () {
+        questionView.text = CardCollection.instance.currentCard.question
+        //pickerView.text = [CardCollection.instance.currentCard.options]
+        questionLabel.text = "Question \(CardCollection.instance.currentIndex+1)/\(CardCollection.instance.cards.count)"
+    }
 
 }
 

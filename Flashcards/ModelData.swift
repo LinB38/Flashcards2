@@ -42,5 +42,12 @@ class CardCollection {
         currentIndex = 0
         
     }
+    
+    public func nextQuestion () {
+        currentIndex += 1
+        if currentIndex >= cards.count {
+            currentIndex = 0
+        }
+    }
 }
 
