@@ -48,8 +48,15 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         return CardCollection.instance.currentCard.options[row];
     }
     
-    @IBAction func submitPressed(_ sender: Any) {
+    @IBAction func submitButtonPressed(_ sender: Any) {
+        var alert : UIAlertController
         
-        
-    }
+        if CardCollection.instance.checkAnswer(pickerView.selectedRow(inComponent: 0)){
+            alert = UIAlertController(title: "Congratulations!", message: "That's the correct answer!", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Yay!", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true)
+            
+        }
+}
+
 }
